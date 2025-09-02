@@ -16,7 +16,7 @@ cp /Users/bendickinson/Desktop/Trading:BenBot/temp_keys/trading_config.yaml /Use
 # Check if benbot_with_openai.html exists and update it
 if [ -f "/Users/bendickinson/Desktop/Trading:BenBot/benbot_with_openai.html" ]; then
   # Use sed to replace the API key placeholder
-  sed -i '' 's/const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY".*/const OPENAI_API_KEY = "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";/' /Users/bendickinson/Desktop/Trading:BenBot/benbot_with_openai.html
+  sed -i '' 's/const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY".*/const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY";/' /Users/bendickinson/Desktop/Trading:BenBot/benbot_with_openai.html
 fi
 
 echo "API keys have been restored to their appropriate locations."
